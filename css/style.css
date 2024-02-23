@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.new_con{
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.new_con1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h2{
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+}
+.link{
+    font-size: 22px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    color: black;
+}
+.img_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.img_list>div{
+    width: 49%;
+}
+.des{
+    color: #7f7f7f;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    background: #E6E6E6;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+.text.left{
+    width: 55%;
+}
+.text.right{
+    width: 44%;
+}
+.text:hover{
+    background: #DBDBDB;
+}
+.new_con2>a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.new2_text{
+    width: 69%;
+}
+.new2_img{
+    width: 30%;
+}
+.texts{
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #595959;
+}
+.time{
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #595959;
+}
+.new2_img>img{
+    width: 100%;
+}
